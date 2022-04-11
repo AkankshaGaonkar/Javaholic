@@ -9,11 +9,8 @@ public class SumOfNum {
         int sum=0;
         for(int i=1;i<=number;i++)
         {
-
             sum=sum+i;
-
+            System.out.println("The Sum of is "+sum);
         }
-        System.out.println("The Sum of is " +sum);
-
     }
 }

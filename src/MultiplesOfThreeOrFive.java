@@ -20,6 +20,5 @@ public class MultiplesOfThreeOrFive {
             System.out.println("The Sum of is "+sum);
         }
 
-
-}
+    }
 }

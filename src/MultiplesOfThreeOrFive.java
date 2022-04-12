@@ -7,13 +7,15 @@ public class MultiplesOfThreeOrFive {
         System.out.println("Enter the number:");
         int n = num.nextInt();
         int sum=0;
-        for (int i = 1; i <= n; i++)
+        for (int no = 0; no < n; no++)
         {
-            sum=sum+i;
-            if(sum % 3 == 0 || sum % 5 ==0)
+            if (no % 3 == 0 || no % 5 == 0)
             {
-                System.out.println("The number that is divisible by 3 or 5 are " + sum);
+                System.out.print(no + " ");
+                sum=sum+no;
             }
         }
-    }
+        System.out.println("\nThe sum of the numbers that are divisible by 3 or 5 is "+sum);
+        }
 }
+

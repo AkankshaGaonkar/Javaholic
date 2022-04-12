@@ -7,9 +7,6 @@ public class SumOfNumUsingFormula {
         Scanner obj=new Scanner(System.in);
         System.out.println("Enter the number:");
         int n = obj.nextInt();
-        System.out.println("Sum of number is:");
-        System.out.println(n*(n+1)/2);
-
-
+        System.out.println("Sum of number is:"+(n*(n+1))/2);
     }
 }

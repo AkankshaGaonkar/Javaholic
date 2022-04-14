@@ -10,7 +10,7 @@ public class SumOfNum {
         for(int i=1;i<=number;i++)
         {
             sum=sum+i;
-            System.out.println("The Sum of is "+sum);
+            System.out.println("The Sum of number is "+sum);
         }
     }
 }

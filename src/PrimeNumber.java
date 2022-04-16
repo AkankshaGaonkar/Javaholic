@@ -3,14 +3,26 @@ import java.util.Scanner;
 public class PrimeNumber {
     public static void main(String args[]){
         System.out.println("All Prime Numbers are:");
-        int n=100;
-        System.out.println("2");
-        for(int i=2;i<=n;i++)
+        int temp=0;
+        for(int i=1;i<=100;i++)
         {
-            if(i%2!=0)
+            for (int j = 2; j <= i - 1; j++)
             {
-                System.out.println(+i);
+                if (i % j == 0)
+                {
+                    temp = temp + i;
+                }
+            }
+            if(temp==0)
+            {
+                    System.out.println(i);
+            }
+            else
+            {
+                temp=0;
             }
         }
     }
 }
+
+

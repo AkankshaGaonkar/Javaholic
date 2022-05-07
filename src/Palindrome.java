@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Panlindrone {
+public class Palindrome {
     public static void main(String args[]){
         int ans=0,n,r,rev=0;
         Scanner sc=new Scanner(System.in);

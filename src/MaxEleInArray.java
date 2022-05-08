@@ -9,7 +9,7 @@ public class MaxEleInArray {
                 max=A[i];
             }
         }
-        return(max);
+        return max;
     }
     public static void main(String args[]){
         int A[]={8,3,15,9,77};

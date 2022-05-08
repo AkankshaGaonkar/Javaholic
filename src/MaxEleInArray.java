@@ -1,4 +1,5 @@
-public class MaxEleInArray {
+public class MaxEleInArray
+{
     static int max(int A[])
     {
         int max=A[0];

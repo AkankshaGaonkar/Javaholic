@@ -14,7 +14,7 @@ public class GCD {
                 n=n-m;
             }
         }
-        return(n);
+        return n;
     }
     public static void main(String args[]){
         System.out.println(gcd(35,56));

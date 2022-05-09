@@ -6,8 +6,8 @@ public class ReverseCopyingArray {
         {
             B[j]=A[i];
         }
-        for(int j=0;j<A.length;j++) {
-            System.out.print(B[j]+" ");
+        A=B;
+        System.out.println("Length of A="+A.length);
         }
-    }
 }
+

@@ -10,6 +10,7 @@ class sub1 extends sup1{
         System.out.println("hello welcome");
     }
 }
+//redefining the mtd of super class in the subclass
 public class methodOverriding {
     public static void main(String args[])
     {

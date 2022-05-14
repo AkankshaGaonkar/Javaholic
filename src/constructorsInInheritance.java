@@ -1,18 +1,20 @@
 class parent
 {
-    public parent()//constructor
+    public parent()
+    //constructor
     {
         System.out.println("Parent Constructor");
     }
 }
-class child extends parent//child class inherit the property from the parent class
+//child class inherit the property from the parent class
+class child extends parent
 {
     public child()
     {
         System.out.println("Child Constructor");
     }
 }
-class grandchild extends  child
+class grandchild extends child
 {
     public grandchild()
     {
@@ -20,9 +22,9 @@ class grandchild extends  child
     }
 }
 public class constructorsInInheritance {
-    public static void  main(String args[])
+    public static void main(String args[])
     {
-        child a=new grandchild();
+        grandchild a=new grandchild();
     }
 
 }

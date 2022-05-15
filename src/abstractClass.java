@@ -19,7 +19,7 @@ class Subb extends Superr
 public class abstractClass {
     public static void main(String args[])
     {
-        Superr s =new Subb();//you can only create the obj of the subclass.Mainly abstract class is used for inheritance so that another class can override the mtds and create obj and functions to execute
+        Superr s =new Subb();//you can only create the obj of the subclass.Mainly abstract class is used for inheritance so that another class can override(to make it concrete methods) the mtds and create obj and functions to execute
         s.meth1();
         s.meth2();
 

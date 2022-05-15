@@ -1,4 +1,4 @@
-abstract class shape
+abstract class shape//only ref not obj can be created
 {
     abstract public int perimeter();
     abstract public int area();

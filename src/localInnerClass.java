@@ -1,10 +1,11 @@
-class outer
+class outerrr
 {
-    void display()//inside the display mtd we have an inner class
+    public void display()
+    //inside the display mtd we have an inner class
     {
         class inner
         {
-            void innerDisplay()
+            public void innerDisplay()
             {
                 System.out.println("Hello");
             }
@@ -15,5 +16,9 @@ class outer
     }
 }
 public class localInnerClass {
-
+    public static void main(String  args[])
+    {
+        outerrr o = new outerrr();
+        o.display();
+    }
 }

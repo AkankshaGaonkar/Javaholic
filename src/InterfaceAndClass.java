@@ -44,7 +44,7 @@ class iphone extends phone implements cameraClick,musicPlayer
     }
 
 }
-public class multipleInheritance {
+public class InterfaceAndClass {
     public static void main(String args[])
     {
         phone p=new iphone();

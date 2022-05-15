@@ -5,7 +5,7 @@ abstract class shape//only ref not obj can be created
 }
 class circle extends shape{
     int radius;
-    public int area()
+    public int area()//y we can't declare radius inside parenthesis
     {
         return radius*radius;
     }

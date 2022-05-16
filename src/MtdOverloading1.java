@@ -1,13 +1,13 @@
-public class MtdOverloading1 {
+public class MtdOverloading1 { //same name different parameters
     static double area(double l,double b)
     {
        double area=l*b;
        return area;
     }
-    static double area(double r)
+    static int area(int r)
     {
-        double area=(Math.PI)*r*r;
-        return area;
+        int are=r*r;
+        return are;
     }
     public static void main(String args[])
     {

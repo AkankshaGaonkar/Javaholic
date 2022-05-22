@@ -15,7 +15,7 @@ class rectangle1 {
     rectangle1(int length, int breath)
     {
         this.length=length;//to avoid name conflict that is parameter and property have same name so this constructor is used to resolve this issue
-        //this gives ref to current obj
+        //this gives ref to current obj of the class
         this.breath=breath;
     }
     void display()
